@@ -1,0 +1,40 @@
+diff --git a/Config.in b/Config.in
+index 3c57c591a8..a7710465ec 100644
+--- a/Config.in
++++ b/Config.in
+@@ -249,7 +249,7 @@ config BR2_BACKUP_SITE
+ 
+ config BR2_KERNEL_MIRROR
+ 	string "Kernel.org mirror"
+-	default "https://cdn.kernel.org/pub"
++	default "https://mirror.bjtu.edu.cn/kernel/"
+ 	help
+ 	  kernel.org is mirrored on a number of servers around the
+ 	  world. The following allows you to select your preferred
+@@ -264,7 +264,7 @@ config BR2_KERNEL_MIRROR
+ 
+ config BR2_GNU_MIRROR
+ 	string "GNU Software mirror"
+-	default "http://ftpmirror.gnu.org"
++	default "http://mirrors.nju.edu.cn/gnu/"
+ 	help
+ 	  GNU has multiple software mirrors scattered around the
+ 	  world. The following allows you to select your preferred
+@@ -279,7 +279,7 @@ config BR2_GNU_MIRROR
+ 
+ config BR2_LUAROCKS_MIRROR
+ 	string "LuaRocks mirror"
+-	default "http://rocks.moonscript.org"
++	default "https://luarocks.cn"
+ 	help
+ 	  LuaRocks repository.
+ 
+@@ -287,7 +287,7 @@ config BR2_LUAROCKS_MIRROR
+ 
+ config BR2_CPAN_MIRROR
+ 	string "CPAN mirror (Perl packages)"
+-	default "http://cpan.metacpan.org"
++	default "http://mirrors.nju.edu.cn/CPAN/"
+ 	help
+ 	  CPAN (Comprehensive Perl Archive Network) is a repository of
+ 	  Perl packages. It has multiple software mirrors scattered
